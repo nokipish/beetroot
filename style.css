@@ -1,0 +1,42 @@
+header { ... }
+
+/* Избранная статья */
+article { ... }
+
+/* Кнопки */
+.btn { ... }header { ... }
+
+/* Избранная статья */
+article { ... }
+
+/* Кнопки */
+.btn { ... }header { ... }
+
+/* Избранная статья */
+article { ... }
+
+/* Кнопки */
+a,
+.btn {
+  background: #aaa;
+  color: #f60;
+  font-size: 18px;
+  padding: 6px;
+}
+div {
+    border: 2px solid transparent ;
+    height: 100px;
+    margin: 20px;
+    padding: 28px;
+    width: 400px;
+  }
+ 
+  header {
+    border: 2px solid transparent ;
+    height: 100px;
+    margin: 20px;
+    padding: 28px;
+    width: 400px;
+
+
+  }
