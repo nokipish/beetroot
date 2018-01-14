@@ -1,8 +1,10 @@
+// @TODO: отступы, пустые стили, стилить только по классу
 body {
  
 }
 
 header {
+  // @TODO: min-height
   height: 850px;
   background-color: #23232e;
   margin-bottom: 125px;
@@ -34,6 +36,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  // @TODO: padding: 60px 0;
   padding: 60px 0 60px 0;
 }
 

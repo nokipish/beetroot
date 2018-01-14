@@ -1,56 +1,87 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>Макет</title>
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <title>Макет</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>CSS Diner Shopping List </h1>
         <p> Let`s go to the mall! </p>
     </header>
-    <!--
     <main>
-       <div> <p>A lot of pickles</p> <h4> ( for the next lessons about CSS )</h4> </div>
-       <div> <p>10 apples </p> <h4> ( for more CSS manipulations )</h4> </div>
-       <div> <p>20 oranges</p> <h4> ( because they are awesome )</h4> </div>
-       
-       <div><p>13 plates</p> <h4> ( hm... they always disappear )</h4> </div>
-       <div><p>15 bentos</p> </div>
-       <div><p>1 bottle of Sake ^_^ </p> <h4> ( hm... they always disappear )</h4> </div>
+        <div>
+            <p>A lot of pickles</p>
+            <h4> ( for the next lessons about CSS )</h4>
+        </div>
+        <div>
+            <p>10 apples </p>
+            <h4> ( for more CSS manipulations )</h4>
+        </div>
+        <div>
+            <p>20 oranges</p>
+            <h4> ( because they are awesome )</h4>
+        </div>
+
+        <div>
+            <p>13 plates</p>
+            <h4> ( hm... they always disappear )</h4>
+        </div>
+        <div>
+            <p>15 bentos</p>
+        </div>
+        <div>
+            <p>1 bottle of Sake ^_^ </p>
+            <h4> ( hm... they always disappear )</h4>
+        </div>
     </main>
-    --!>
-    
+
     <main>
         <div class="checkbox">
             <div class="checkbox_form">
-            	<input id="check1" type="checkbox" name="check" value="check1">
-            	<label class="line" for="check1">A lot of pickles <span>( for the next lessons about CSS )</span></label>
+                <!-- @TODO: инпут должен быть внутри лейбла, тогда не нужен будет айди у лейбла и инпута -->
+                <input id="check1" type="checkbox" name="check" value="check1">
+                <label class="line" for="check1">A lot of pickles
+                    <span>( for the next lessons about CSS )</span>
+                </label>
             </div>
             <div class="checkbox_form fon">
-            	<input id="check2" type="checkbox" name="check" value="check2">
-            	<label class="line" for="check2">10 apples <span>( for more CSS manipulations )</span></label>
+                <input id="check2" type="checkbox" name="check" value="check2">
+                <label class="line" for="check2">10 apples
+                    <span>( for more CSS manipulations )</span>
+                </label>
             </div>
             <div class="checkbox_form">
-            	<input id="check3" type="checkbox" name="check" value="check3">
-            	<label class="line" for="check3">20 oranges <span>( because they are awesome )</span></label>
+                <input id="check3" type="checkbox" name="check" value="check3">
+                <label class="line" for="check3">20 oranges
+                    <span>( because they are awesome )</span>
+                </label>
             </div>
             <div class="checkbox_form">
-            	<input id="check4" type="checkbox" name="check" value="check4">
-            	<label class="line" for="check4">13 plates <span>( hm... they always disappear )</span></label>
+                <input id="check4" type="checkbox" name="check" value="check4">
+                <label class="line" for="check4">13 plates
+                    <span>( hm... they always disappear )</span>
+                </label>
             </div>
             <div class="checkbox_form">
-            	<input id="check5" type="checkbox" name="check" value="check5">
-            	<label class="line" for="check5">15 bentos</label>
+                <input id="check5" type="checkbox" name="check" value="check5">
+                <label class="line" for="check5">15 bentos</label>
             </div>
             <div class="checkbox_form">
-            	<input id="check6" type="checkbox" name="check" value="check6">
-            	<label class="line" for="check6">1 bottle of Sake ^_^ <span>( hm... they always disappear )</span></label>
+                <input id="check6" type="checkbox" name="check" value="check6">
+                <label class="line" for="check6">1 bottle of Sake ^_^
+                    <span>( hm... they always disappear )</span>
+                </label>
             </div>
         </div>
-        <button><p> Bon appetit :) </p></button>
+        <button>
+            <p> Bon appetit :) </p>
+        </button>
     </main>
 </body>
-</html> 
+
+</html>

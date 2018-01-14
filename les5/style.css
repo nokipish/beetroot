@@ -1,3 +1,4 @@
+// @TODO: не работате ховер, как по мне условия ДЗ не выполнены. остальные замечания как и у остальных работ
 body {
     background: #3399cc;
     border: 20px solid #2b81ac;
@@ -16,6 +17,7 @@ h1 {
     font-size: 36px;
     color: #fff;
     }
+    // @TODO: вложенность ??
     h1 > .wi {
         font-size:28px;
         color: #fff;

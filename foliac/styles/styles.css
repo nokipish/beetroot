@@ -1,3 +1,5 @@
+@TODO: отступы, комментарии, пустые стили ??, 
+
 body {
     overflow-x: hidden;
     min-width: 320px;
@@ -459,6 +461,8 @@ float: left;
 .fa fa-twitter {
   z-index: 2;
 }
+
+// @TODO: что это за чудо-класс ???
 .footer__block__contact__copyright__socio__2 {
   
   height: 30px;
@@ -491,7 +495,7 @@ float: left;
 
 .footer__block__contact__copyright__socio__4 {
    
-    
+    // @TODO: ??? отступы
     height: 30px;
     width: 50px;
     line-height: 50px;

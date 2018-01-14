@@ -2,6 +2,7 @@ body {
     background: #f1f1f1;
     height: 100vh; /* 100vh высота секции равна высоте области просмотра */
     font-family: "Arial, sans-serif";
+    // @TODO: так нельзя делать - ты обнуляешь шрифт на всем документе, надо давать конкртеному диву, элементу
     font-size: 0; /* обнуляем отступы display: inline-block; */
     }
 
@@ -70,6 +71,8 @@ span {
     width: 33%;
     display: inline-block;
 }
+
+// @TODO: не используй вложенность, используй классы
 .people p{
     padding: 20px;
     background: #ebebed;
