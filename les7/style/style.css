@@ -1,0 +1,200 @@
+body {
+    background: #464f54;
+    padding: 150px 70px 0 70px;
+    }
+
+/*font*/
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family:FuturaPTMedium; /* имя шрифта для CSS правил */
+    src: local("FuturaPTMedium"), /* проверяем наличие шрифта в ОС пользователя */
+         url(../fonts/FuturaPTMedium.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+
+/*font*/
+
+.date {
+color: #b4b4b4;
+font-family: ProximaNovaRegular;
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+margin-bottom: 40px;
+}
+
+.paragraf {
+    color: #8f8f8f;
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 62px;
+    margin-bottom: 40px;
+}
+
+.paragraf-normal {
+    color: black;
+    font-family: Georgia;
+    font-size: 27px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.main-section {
+    max-width: 1080px;
+    height: auto;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+}
+
+h1 {
+    color: #2a2a2a;
+    font-family: FuturaPTMedium;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 74px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+
+.main-section-textblock {
+    padding-top: 200px;
+    border-left: 2px solid #ccc;
+    padding: 200px 56px 100px 56px;
+    width: 920px;
+    margin: 0 auto;
+}
+.second-section {
+    position: absolute;
+    right: 0;
+    margin-top: -100px;
+    height: 190px;
+}
+
+.second-section-title {
+    width: 100%;
+    height: 187px;
+    background-color: #181818;
+    box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
+    padding: 40px 0 0 60px;
+}
+.second-section-icon {
+    width: 876px;
+    height: 76px;
+    background-color: #fbc02d;
+    box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
+    margin-left: 64px;
+    padding: 16px 0px 0px 42px;
+    
+}
+
+.second-section-icon li {
+    width: 38px;
+    height: 38px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.second-section-icon li:hover {
+    opacity: 1;
+}
+.ic_a {
+    background: url(../img/ic_format_color_text_white_24dp.png) no-repeat;
+    background-size: cover;
+    }
+.ic_t {
+    background: url(../img/ic_format_size_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+.ic_img {
+    background: url(../img/ic_insert_photo_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+.ic_b {
+    background: url(../img/ic_format_bold_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+.ic_i {
+    background: url(../img/ic_format_italic_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+.ic_u {
+    background: url(../img/ic_format_underline_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+.ic_text {
+    background: url(../img/ic_format_align_justify_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+.ic_text_right {
+    background: url(../img/ic_format_align_right_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+.ic_text_center {
+    background: url(../img/ic_format_align_center_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+.ic_text_left {
+    background: url(../img/ic_format_align_right_white_24dp.png) no-repeat;
+    background-size: cover;
+}
+
+span {
+    color: #767676;
+    font-family: ProximaNovaRegular;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.input__text {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: inherit;
+    color: #fefefe;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: 400;
+    
+}
+
+hr {
+    height: 3px;
+    opacity: 0.1;
+    background-color: white;
+}
