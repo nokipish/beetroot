@@ -1,0 +1,141 @@
+body {
+background: url(../img/main.png) no-repeat;
+background-size: cover;
+
+  }
+  
+section {
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+position: absolute;
+max-width: 686px;
+height: 391px;
+background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+
+}
+.logo {
+width: 65px;
+height: 33px;
+margin: 25px;
+}
+
+main {
+    display: flex;
+    padding: 15px;
+}
+.prod-img {
+ width: 85%;   
+  justify-content: center;  
+ 
+}
+.cros {
+    align-items: center; 
+    margin-left: 35px;
+}
+
+.prod-info {
+    padding: 80px 25px 60px 50px;
+}
+.title {
+    width: 155px;
+    height: 44px;
+    color: #e1e1e1;
+    font-family: MuseoSansRounded;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.model {
+    opacity: 0.54;
+color: #e1e1e1;
+font-family: "Myriad Pro";
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 25px;
+}
+
+select {
+width: 69px;
+height: 32px;
+opacity: 0.26;
+background-color: #111a28;
+border: 1px solid white;
+color: #e1e1e1;
+font-family: MuseoSansRounded;
+font-size: 14px;
+line-height: 18px;
+margin-bottom: 30px;
+
+}
+button {
+width: 184px;
+height: 40px;
+opacity: 0.26;
+background-color: #4c525a;
+border: 1px solid white;
+outline: none;
+color: #e1e1e1;
+font-family: MuseoSansRounded;
+font-size: 14px;
+}
+
+ul {
+    width: 100%;
+}
+li {
+    display: inline-block;
+    
+}
+ul.circles {
+    text-align: center;
+}
+.circles li{
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.fa-star {
+width: 12px;
+height: 12px;
+color: #9da1a6;
+margin-bottom: 25px;
+}
+.yellow {
+    color: yellow;    
+}
+.fa-star:hover {
+color: yellow;
+}
+
+.fa-circle {
+width: 9px;
+height: 9px;
+color: white;
+text-align: center;
+padding: 5px;
+
+}
+
+.red {
+    color: red;
+
+}
+
+.blue {
+    color: blue;
+}
+
+.border {
+   color:  #111a28;
+   text-shadow:-1px 0px #7a7e87, 0px -1px #7a7e87, 1px 0px #7a7e87, 0px 1px #7a7e87, -1px -1px #7a7e87, 1px 1px #7a7e87, -1px 1px #7a7e87, 1px -1px #7a7e87, 1px 0px 4px #7a7e87, 0px 0px 2px #7a7e87, 0px 0px 3px #7a7e87, 0px 0px 2px #7a7e87, 0px 0px 3px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87;
+   
+}
+.fa-circle:hover {
+    color:  #111a28;
+    text-shadow:-1px 0px #7a7e87, 0px -1px #7a7e87, 1px 0px #7a7e87, 0px 1px #7a7e87, -1px -1px #7a7e87, 1px 1px #7a7e87, -1px 1px #7a7e87, 1px -1px #7a7e87, 1px 0px 4px #7a7e87, 0px 0px 2px #7a7e87, 0px 0px 3px #7a7e87, 0px 0px 2px #7a7e87, 0px 0px 3px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87;
+    
+}
