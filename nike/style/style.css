@@ -4,6 +4,26 @@ background-size: cover;
 
   }
   
+  header {
+    max-width: 750px;
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+  }
+
+.fa-bars {
+  width: 22px;
+  height: 13px;
+  color: white;
+  
+}
+
+.logo {
+    margin-right: 30px;
+}
+
 section {
 top: 0;
 left: 0;
@@ -11,131 +31,234 @@ right: 0;
 bottom: 0;
 margin: auto;
 position: absolute;
-max-width: 686px;
-height: 391px;
+max-width: 750px;
+height: 430px;
 background-color: #ffffff;
-border-radius: 10px;
-box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
-
-}
-.logo {
-width: 65px;
-height: 33px;
-margin: 25px;
+display: flex;
 }
 
-main {
+.image {
+background-color: #f4f4f4;
+}
+
+.cros-main {
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+
+.plus {
+position: absolute;
+right: 40%;
+top: 77%;
+font-size: 30px;
+color: #1f1f1f;
+cursor: pointer;
+}
+
+.choise-image {
     display: flex;
-    padding: 15px;
-}
-.prod-img {
- width: 85%;   
-  justify-content: center;  
- 
-}
-.cros {
-    align-items: center; 
-    margin-left: 35px;
+    justify-content: center;
 }
 
-.prod-info {
-    padding: 80px 25px 60px 50px;
+.cros-item {
+    margin-right: 20px;
+    
 }
-.title {
-    width: 155px;
-    height: 44px;
-    color: #e1e1e1;
-    font-family: MuseoSansRounded;
-    font-size: 24px;
-    line-height: 26px;
-    margin-bottom: 15px;
+.cros-item:hover {
+    
+    cursor: pointer;
 }
-.model {
-    opacity: 0.54;
-color: #e1e1e1;
-font-family: "Myriad Pro";
+.fa-bars:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    margin-right: 50px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.first-block {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    max-width: 810px;
+    height: 395px;
+    opacity: 0.2;
+    background-color: #ffffff;
+}
+
+.second-block {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    max-width: 780px;
+    height: 410px;
+    opacity: 0.2;
+    background-color: #ffffff;
+}
+
+.card {
+    padding: 40px 30px 60px 20px;
+}
+.close {
+position: absolute;
+right: 1%;
+top: -0.5%;
+font-size: 30px;
+color: #1f1f1f;
+transform: rotate(45deg);
+margin-bottom: 20px;
+}
+
+.close:hover {
+    color: #a200b8;
+    transform: rotate(220deg);
+    cursor: pointer;
+    transition: 1s;
+    }
+
+.new {
+background-color: #ffa60d;
+color: white;
+font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-margin-bottom: 25px;
+text-transform: uppercase;
+padding: 3px;
 }
 
-select {
-width: 69px;
-height: 32px;
-opacity: 0.26;
-background-color: #111a28;
-border: 1px solid white;
-color: #e1e1e1;
-font-family: MuseoSansRounded;
-font-size: 14px;
-line-height: 18px;
-margin-bottom: 30px;
-
-}
-button {
-width: 184px;
-height: 40px;
-opacity: 0.26;
-background-color: #4c525a;
-border: 1px solid white;
-outline: none;
-color: #e1e1e1;
-font-family: MuseoSansRounded;
-font-size: 14px;
+.title-text {
+font-family: Roboto;
+font-size: 24px;
+color: black;
+max-width: 200px;
+margin-bottom: 15px;
+margin-top: 10px;
 }
 
-ul {
-    width: 100%;
+.text_color-style {
+    color: #5e4fff;
+    }
+
+.for_stars {
+    display: flex;
+    max-width: 170px;
+    height: 20px;
+    color: black;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: 20px;
+    }
+
+.stars {
+margin-left: 20px;
 }
+
 li {
     display: inline-block;
     
 }
-ul.circles {
-    text-align: center;
-}
-.circles li{
-    margin-top: 70px;
-    margin-left: 10px;
-}
+
 .fa-star {
-width: 12px;
-height: 12px;
-color: #9da1a6;
-margin-bottom: 25px;
-}
-.yellow {
-    color: yellow;    
-}
-.fa-star:hover {
-color: yellow;
-}
-
-.fa-circle {
-width: 9px;
-height: 9px;
-color: white;
-text-align: center;
-padding: 5px;
-
-}
-
-.red {
-    color: red;
-
-}
-
-.blue {
-    color: blue;
-}
-
-.border {
-   color:  #111a28;
-   text-shadow:-1px 0px #7a7e87, 0px -1px #7a7e87, 1px 0px #7a7e87, 0px 1px #7a7e87, -1px -1px #7a7e87, 1px 1px #7a7e87, -1px 1px #7a7e87, 1px -1px #7a7e87, 1px 0px 4px #7a7e87, 0px 0px 2px #7a7e87, 0px 0px 3px #7a7e87, 0px 0px 2px #7a7e87, 0px 0px 3px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87;
-   
-}
-.fa-circle:hover {
-    color:  #111a28;
-    text-shadow:-1px 0px #7a7e87, 0px -1px #7a7e87, 1px 0px #7a7e87, 0px 1px #7a7e87, -1px -1px #7a7e87, 1px 1px #7a7e87, -1px 1px #7a7e87, 1px -1px #7a7e87, 1px 0px 4px #7a7e87, 0px 0px 2px #7a7e87, 0px 0px 3px #7a7e87, 0px 0px 2px #7a7e87, 0px 0px 3px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87, 0px 0px 4px #7a7e87;
+    width: 12px;
+    height: 12px;
+    color: #7f7f7f;
+    margin-bottom: 25px;
     
+    }
+    .black {
+        color: black;    
+    }
+    .fa-star:hover {
+    color: black;
+    }
+
+    .price {
+        color: black;
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 300;
+        margin-bottom: 25px;
+    }
+
+    .size {
+        color: black;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+
+    .size__style {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 35px;
+        height: 25px;
+        
+    }
+
+    .size__style-item {
+        color: black;
+        font-family: Roboto;
+        font-size: 15px;
+        border: 1px solid #fff;
+        padding: 3%;
+        line-height: 0.7;
+
 }
+    .size__style-item:hover {
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    
+    .btn__add {
+        width: 118px;
+        height: 30px;
+        background-color: #a200b8;
+        color: white;
+        font-family: Roboto;
+        font-size: 12px;
+        text-transform: uppercase;
+        outline: none;
+        border: 0;
+        margin-bottom: 5px;
+    }
+
+    .btn__wishlist {
+        width: 118px;
+        height: 30px;
+        background-color: white;
+        border: 1px solid #0f0f0f;
+        color: #0f0f0f;
+        font-family: Roboto;
+        font-size: 12px;
+        text-transform: uppercase;
+        outline: none;
+    }
+
+    .btn__add:hover {
+        background-color: white;
+        border: 1px solid #0f0f0f;
+        color: #0f0f0f;
+    }
+
+    .btn__wishlist:hover {
+        background-color: #a200b8;
+        color: white;
+        border: 1px solid white;
+    }
