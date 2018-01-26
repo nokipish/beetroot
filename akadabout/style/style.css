@@ -1,0 +1,192 @@
+body {
+ max-width: 1300px;
+ background: #fff;
+ margin: 0 auto;
+ 
+  }
+  
+header {
+  background: url(../img/bgnd.png) no-repeat ;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.menu_items {
+  
+}
+
+.logo {
+  color: #60606e;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  
+}
+
+.info__title {
+  color: #60606e;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 210px;
+}
+
+.info__description {
+  color: #60606e;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.section__title-text {
+  color: #60606e;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section__description-text {
+  color: #60606e;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 650px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.service-block{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.service-item {
+  max-width: 380px;
+  height: 190px;
+}
+
+
+
+.foto-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.person-foto {
+  max-width: 265;
+  max-height: 330px;
+  margin-bottom: 30px;
+}
+
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer {
+  background-color: #7beec7;
+}
+
+.g_i_t {
+  width: 50%;
+}
+
+main {
+  padding: 600px 80px 0 80px;
+}
+.contact {
+  padding: 50px 80px 50px 80px;
+}
+.asc__title {
+  color: white;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+
+.btn__git {
+  width: 165px;
+  height: 49px;
+  background-color: white;
+  color: #7beec7;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form__title {
+  color: #60606e;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  max-width: 336px;
+}
+
+.form__description {
+  color: #999;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+form {
+  width: 50%;
+  height: 230px;
+  background-color: white;
+  padding: 20px 25px 20px 25px;
+}
+.input__section {
+  display: flex;
+}
+.asc__mail {
+  width: 70%;
+  height: 50px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #cdcdcd;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn__send {
+  width: 30%;
+  height: 50px;
+  background-color: #7beec7;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+
+}
+button {
+  outline: none;
+  border: none;
+}

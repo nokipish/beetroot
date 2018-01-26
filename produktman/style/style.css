@@ -1,0 +1,156 @@
+body {
+ max-width: 1200px;
+ background-color: #eeeeee;
+ padding: 0 15px 0 15px;
+ margin: 0 auto;
+  }
+  
+  header {
+    max-width: 1200px;
+    display: inline-block;
+    
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+
+  }
+
+.title-name {
+color: #303030;
+font-family: Roboto;
+font-size: 48px;
+font-weight: 900;
+  }
+
+  .menu-item_a {
+  color: #303030;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+  }
+
+.fa-bars {
+color: #303030;
+font-family: FontAwesome;
+font-size: 18px;
+font-weight: 400;
+}
+
+.slider__container {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.container__text {
+  text-align: right;
+  width: 60%;
+}
+
+.container__text-largetitle {
+color: #303030;
+font-family: 'Raleway', sans-serif;
+font-size: 150px;
+font-weight: 900;
+line-height: 150px;
+text-transform: uppercase;
+margin-bottom: 60px;
+}
+
+.container__text-description {
+color: #303030;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 300;
+margin-bottom: 30px;
+}
+
+.container__text-view {
+color: #e10011;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+}
+
+.container__img {
+  width: 40%;
+  padding: 0 60px 60px 60px;
+}
+
+.circle {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #303030; 
+  padding: 4px;
+}
+
+.circle__choise:hover, .choise {
+  background-color: #e10011;  
+}
+
+.info {
+  background-color: #ffff;
+  padding: 110px 70px 70px 70px;
+}
+
+.info__title {
+color: #303030;
+font-family: Raleway;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 20px;
+text-align: center;
+}
+.line_block {
+  height: 30px;
+  width: 1000px;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: center;
+  
+}
+.l2 {
+  margin-left: 26px
+  
+
+}
+
+.line {
+  font-size: 36px;
+  color: #000;
+  font-style: normal;
+  
+}
+
+.line:before {
+  content: "⧘";
+  transform: rotate(-90deg);
+  position: absolute;
+}
+
+.info__description {
+color: #303030;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 400;
+width: 551px;
+margin: auto;
+}
+
+.info__img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+
+}
+
+.info__product-img {
+  margin-bottom: 30px;
+}
+
