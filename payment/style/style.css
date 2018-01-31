@@ -1,0 +1,70 @@
+body {
+ background: #fdde7e;
+ margin: 0 auto;
+ 
+  }
+  
+  @font-face {
+    font-family: 'MisoRU';
+    src: url('./fonts/Miso.eot');
+    src: local('./fonts/Miso'),
+      url('Miso.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Miso.woff') format('woff'),
+      url('./fonts/Miso.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+
+.main__section {
+  max-width: 1200px ;
+  height: 600px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.cup1, .cup3 {
+  width: 360px;
+  height: 440px;
+}
+
+.cup2 {
+  width: 360px;
+  height: 500px;
+}
+
+.price {
+  color: #02995b;
+  font-family: 'MisoRU';
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.title {
+  font-family: 'MisoRU';
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.description {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 300;
+}

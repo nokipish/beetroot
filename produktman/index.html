@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Nike</title>
+  <title>ProductMan</title>
 
   <link rel="stylesheet" type="text/css" href="style/reset.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
@@ -19,7 +19,8 @@
           <li class="menu-item"> 
             <a href="#" class="menu-item_a">Recent Work</a> 
           </li>
-          <li class="menu-item"> <a href="#" class="menu-item_a">Featured Product</a>
+          <li class="menu-item"> 
+            <a href="#" class="menu-item_a">Featured Product</a>
           </li>
         </ul>
       </nav>
@@ -35,18 +36,26 @@
         <div class="container__img">
           <img src="./img/audio.png" alt="audio" class="container__img-audio">
         </div>
-        <span class="circle"><a href="" class="circle__choise choise"></a></span>
-        <span class="circle"><a href="" class="circle__choise"></a></span>
-        <span class="circle"><a href="" class="circle__choise"></a></span>
+      </section>
+        <div class="container__circle">
+          <span class="circle">
+            <a href="" class="circle__choise choise"></a>
+          </span>
+          <span class="circle">
+            <a href="" class="circle__choise"></a>
+          </span>
+          <span class="circle">
+            <a href="" class="circle__choise"></a>
+          </span>
+        </div>
       </div>
-    </section>
     <section class="info">
         <p class="info__title">Featured Product</p>
-        <p class="line_block">
+        <div class="line_block">
           <i class="line"></i><i class="line l2"></i> 
           <i class="fa fa-star-o" aria-hidden="true"></i>
           <i class="line"></i><i class="line l2"></i> 
-        </p>
+        </div>
         <p class="info__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         <div class="info__img-container">
           <img src="./img/beats.png" alt="prod1" class="info__product-img prod1">
@@ -56,12 +65,15 @@
           <img src="./img/chair.png" alt="prod5" class="info__product-img prod5">
         </div>
       </section>
+      <div class="contact__form">
         <p class="form__title">PRODUCTMAN NEWS</p>
         <p class="form__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         <div class="form__email">
-          <input type="mail">
+          <input type="mail" placeholder="Enter your email address"> 
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
           <button>subscribe <i class="fa fa-caret-right" aria-hidden="true"></i></button>
         </div>
+      </div>
         <footer class="contacts">
         <div class="socio__container">
           <a href="#" class="socio__items"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -69,7 +81,7 @@
           <a href="#" class="socio__items"><i class="fa fa-youtube" aria-hidden="true"></i></a>
           <a href="#" class="socio__items"><i class="fa fa-medium" aria-hidden="true"></i></a>
         </div>
-        <p class="footer__copywr">© Copyright Your Company ltd 2016. All Rights Reserved.</p>
+        <p class="footer__copywr">© Copyright <span>Your Company </span>  ltd 2016. All Rights Reserved.</p>
       </footer>
     </body>
 </html> 
