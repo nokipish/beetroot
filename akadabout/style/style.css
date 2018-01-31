@@ -1,24 +1,26 @@
 body {
- max-width: 1300px;
- background: #fff;
- margin: 0 auto;
- 
-  }
+  max-width: 1300px;
+  background: #fff;
+  margin: 0 auto;
+
+}
   
 header {
   background: url(../img/bgnd.png) no-repeat ;
   background-size: cover;
   height: 500px;
   width: 100%;
+  padding: 40px 80px 0 80px;
 }
 
 .menu_items {
-  
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
   color: #60606e;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 48px;
@@ -28,7 +30,7 @@ header {
 
 .info__title {
   color: #60606e;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
@@ -39,27 +41,48 @@ header {
 
 .info__description {
   color: #60606e;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.p_info__menu {
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .section__title-text {
   color: #60606e;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 48px;
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 30px;
+  position: relative;
 }
+
+
+.section__title-text::before {
+  content: "";
+  width: 67px;
+ height: 21px;
+ background-color: #7beec7;
+ position: absolute;
+ z-index: -1;
+ transform: translateY(115%)
+}
+
 
 .section__description-text {
   color: #60606e;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -67,6 +90,7 @@ header {
   height: 40px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .service-block{
@@ -80,7 +104,28 @@ header {
   height: 190px;
 }
 
+.service-name {
+  display: flex;
+  color: #60606e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 
+.service-icon {
+width: 40px;
+height: 40px;
+background-color: #7beec7;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+margin-right: 20px;
+}
 
 .foto-block {
   display: flex;
@@ -116,7 +161,7 @@ main {
 }
 .asc__title {
   color: white;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 48px;
@@ -128,7 +173,7 @@ main {
   height: 49px;
   background-color: white;
   color: #7beec7;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -136,7 +181,7 @@ main {
 
 .form__title {
   color: #60606e;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
@@ -146,7 +191,7 @@ main {
 
 .form__description {
   color: #999;
-  font-family: OpenSans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -168,10 +213,11 @@ form {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: #cdcdcd;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
+  padding-left: 20px;
 }
 
 .btn__send {
@@ -179,7 +225,7 @@ form {
   height: 50px;
   background-color: #7beec7;
   color: white;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;

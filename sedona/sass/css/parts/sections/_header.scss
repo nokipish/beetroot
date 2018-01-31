@@ -1,0 +1,16 @@
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 55px;
+ 
+}
+
+.logo-img:before {
+
+  content: "";
+  height: 0;
+  border-style: solid;
+  border-width: 70px 69px 0 69px;
+  border-color: #007bff ;
+}
