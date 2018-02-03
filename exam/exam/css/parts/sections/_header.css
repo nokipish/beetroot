@@ -1,0 +1,18 @@
+.head_section {
+  width: 100%;
+  background: url(../img/HERO.png) no-repeat;
+  background-size: cover;
+  height: 1050px;
+  padding: 0 150px 0 150px; }
+
+.head__menu, .menu__nav {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }

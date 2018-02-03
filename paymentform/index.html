@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+
+  <link rel="stylesheet" type="text/css" href="style/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+    <body>
+      <section class="form__section">
+        <div class="section__head">
+          <div class="head__text">
+            <p class="head__text-title"> Harold Finch </p>
+            <p class="head__text-subtitle"> Your Total</p>
+          </div>
+          <p class="head__price"> $88</p>
+        </div>
+        <form action="" class="main__form">
+          <div class="card__number"><label for="">Credit card number</label>
+          <input type="text" class="card__number-input" placeholder="4321">
+          </div>
+          <div class="form__select">
+            <label for="">Expiration date</label>
+            <div class="form__select-items">
+            <select name="month" id="" class="select__month"><option value="" disabled selected>Month</option>
+              <option value="1">Январь</option>
+              <option value="2">Февраль</option>
+              <option value="3">Март</option>
+              <option value="4">Апрель</option>
+              <option value="5">Май</option>
+              <option value="6">Июнь</option>
+              <option value="7">Июль</option>
+              <option value="8">Август</option>
+              <option value="9">Сентябрь</option>
+              <option value="10">Октябрь</option>
+              <option value="11">Ноябрь</option>
+              <option value="12">Декабрь</option></select>
+            <select name="year" id="" class="select__year">
+              <option value="" disabled selected>Year</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+            </select>
+        </div>
+          </div>
+          <div class="cvv__number">
+            <label for="">CVV</label>
+            <div class="cvv">
+              <input type="text" class="cvv__number-input" placeholder="">
+              <p class="cvv__description">3 or 4 digits - </p>
+              <a href="#" class="description-link">view example</a>
+            </div> 
+            </div>
+            <hr>
+            <button>Pay</button>
+            <div class="description-link-cancel">
+            <a href="#" class="description-link">Cancel order</a>
+          </div>
+        </form>
+      </section>
+    </body>
+</html> 
