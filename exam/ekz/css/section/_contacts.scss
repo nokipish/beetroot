@@ -1,0 +1,33 @@
+.contact {
+  width: 100%;
+  min-height: 740px;
+  background-color: $white;
+
+&__map-block {
+  min-height: 439px;
+}
+
+&__map-title {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-top: 80px;
+}
+
+&__map-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: $gray;
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+  padding-top: 40px;
+  padding-bottom: 58px;
+}
+}
