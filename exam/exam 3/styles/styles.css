@@ -316,7 +316,7 @@ button:focus {
 .section {
   width: 100%;
   min-height: 100vh;
-  padding: 20px;
+  padding: 20px 0 0 0;
   font-size: 24px;
   font-weight: bold; }
 
@@ -727,7 +727,7 @@ button:focus {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 0 15px 0 15px;
-  margin-bottom: -40px; }
+   }
 
 .main-info__about {
   display: -webkit-box;
@@ -764,11 +764,11 @@ button:focus {
   font-family: "Myriad Pro", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  margin-left: 33%; }
+  margin-left: 33%; 
+padding: 2%}
 
 .info__about-btn:hover {
-  width: 25%;
-  min-height: 50px;
+  height: auto;
   background-color: #9f9acf;
   color: #fff;
   -webkit-transition: 0.7s;
@@ -789,7 +789,7 @@ button:focus {
   flex-wrap: wrap; }
 
 .info__block-3 {
-  min-height: 800px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -864,12 +864,14 @@ button:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 15% 3% 40% 3%;
+  padding: 15% 3% 30% 3%;
   cursor: pointer;
   background: url("../images/borat.png") center no-repeat; }
 
 .white-color {
-  color: #fff; }
+  color: #fff;
+  width: 70%;
+ }
 
 .ba-contact {
   max-width: 1600px;
@@ -1147,7 +1149,8 @@ p.ca2 {
   .ba-container {
     margin-top: 10%; }
   .main-info__about {
-    width: 100%; }
+    width: 100%; 
+  justify-content: center;}
   .info__about-btn {
     width: 40%; }
   .footer-main {
@@ -1160,4 +1163,14 @@ p.ca2 {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; } }
+    justify-content: space-between; } 
+  .ba-socials {
+    margin-bottom: 10%;
+  }
+.info__about-text {
+  justify-content: center;
+ }
+ .info__about-btn {
+  margin: auto;
+ }
+}
