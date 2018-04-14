@@ -1,372 +1,207 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="description" content="seo content goes here">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Creative Digital Project</title>
     <script src="https://use.fontawesome.com/44790a5778.js"></script>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
-  
-  
-  </head>
-  
-  <body>
-    <div class="main-backgraund">
-    <header class="header">
-      <div class="header__wrapper">
-        <div class="header__logo"><img src="./images/Logo.png" class="ba-logo" alt="Logo"></div>
-        <button class="header__nav-btn">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <nav class="header__nav">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#gallery">Services</a>
-          <a href="#team">Works</a>
-          <a href="#contacts">Contact</a>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section id="home" class="section section-home">
-        <div class="ba-container">
-          <h1 class="ba-header__title">Creative Digital Project</h1>
-          <p class="ba-header__text">Duis mollis, est non commodo luctus,<br>nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        </div>
+    <link rel="icon" href="dist/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="dist/styles/main.css">
+    <link rel="stylesheet" href="dist/styles/app.css">
+</head>
+<body>
 
-      </section>
-    </div>
-      <section id="about" class="section-about">
-        <div class="main-info">
-         <div class="main-info__about">
-           <div class="info__about-img">
-              <i class="fa fa-user"></i>
-              <p class="about-title">ABOUT US</p>
+    <!-- wrapper -->
+    <div class="ba-wrapper" role="banner">
 
-           </div>
-           <div class="info__about-text">
-             <p class="about-text">Nullam quis risus eget urna <b>mollis ornare </b> vel eu leo. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-              </p>
-             <p class="about-text about-text-2"> <b>Morbi leo risus,</b> porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-             </p>
-             <button href="#" class="info__about-btn">Learn More</button>
+        <!-- header -->
+        <header class="ba-header">
+            <div class="ba-container">
+                <img src="dist/images/logo.svg" class="ba-logo" alt="Logo">
+                <nav class="ba-navigation">
+                    <ul class="ba-navigation__list">
+                        <li class="ba-navigation__item">
+                            <a href="#home" class="ba-navigation__link">Home</a>
+                        </li>
+                        <li class="ba-navigation__item">
+                            <a href="#about" class="ba-navigation__link">About</a>
+                        </li>
+                        <li class="ba-navigation__item">
+                            <a href="#services" class="ba-navigation__link">Services</a>
+                        </li>
+                        <li class="ba-navigation__item">
+                            <a href="#works" class="ba-navigation__link">Works</a>
+                        </li>
+                        <li class="ba-navigation__item">
+                            <a href="#contact" class="ba-navigation__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h1 class="ba-header__title">Creative Digital Project</h1>
+                <p class="ba-header__text">Duis mollis, est non commodo luctus,<br>nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             </div>
-         </div>
-         
-        </div>
-  
-      </section>
+        </header>
+        <!-- end of header -->
 
-
-
-
-      <section id="gallery" class="section section__services">
-
-        <div class="main-info-serv">
-          <div class="main-info__blocks">
-              <div class="info__block-3">
-                <div class="info__block-items">
-                    
-                    <i class="fa fa-coffee block-items-img"></i>
-                    <p class="block-title ">GRAPHIC DESIGNS</p>
-                    <p class="block-description ">Cras mattis consectetur purus sit amet fermentum</p>
+        <!-- about section -->
+        <section class="ba-about">
+            <div class="ba-container">
+                <div class="ba-grid">
+                    <div class="ba-column-4">
+                        <img src="dist/images/about-bg.png">
+                    </div>
+                    <div class="ba-column-6">
+                        <p>Nullam quis risus eget urna mollis</p>
+                        <button><span>Learn More</span></button>
+                    </div>
                 </div>
-                <div class="info__block-items">
-                    <i class="fa fa-globe block-items-img"></i>
-                    <p class="block-title ">SEO & MARKETING</p>
-                    <p class="block-description ">Cras mattis consectetur purus sit amet fermentum.</p>
-                </div>
-              </div>
-              <div class="info__block-3">
-                  <div class="info__block-items">
-                      <i class="fa fa-object-group block-items-img"></i>
-                      <p class="block-title ">WEB DEVELOPMENT</p>
-                      <p class="block-description ">Cras mattis consectetur purus sit amet fermentum.</p>
+                <div class="ba-grid">
+                    <div class="ba-column-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="61" viewBox="0 0 47 61">
+                          <image id="graphic-design.svg" width="47" height="61" xlink:href="data:img/png;base64,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"/>
+                      </svg>
                   </div>
-                  <div class="info__block-items">
-                      <i class="fa fa-mobile block-items-img"></i>
-                      <p class="block-title ">MOBILE DEVELOPMENT</p>
-                      <p class="block-description ">Cras mattis consectetur purus sit amet fermentum.</p>
-                  </div>
+                  <div class="ba-column-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="59" viewBox="0 0 58 59">
+                      <image id="web.svg" width="58" height="59" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA7CAMAAAAdOWm/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAulBMVEUAAABmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2AAAADadjwIAAAAPHRSTlMAj7y/wpwMh73AlBb0Uz5ANO1HOvkZ6Ar3xPxQPzn2xb67wf3f/vAT1OYQOzNSQxUBDvhBEhf1n6wNl6S7L6QaAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAMhJREFUSMft1kcPgkAQBeBVLGBhRbAXEHsvYOf//y6XcSGakDjqdd5lEzLf4YXLY6m0AslkcwyTvPq81wosiFNE0VJ8L2hZ55xXDDStinNuWiGtwac6mjbgbb7SloKI2k6i2CTQTpd/Tq+fRH/oajuiw8BCUxc6DwM2GssKkymKzqL7OVss+coI1vpmu0PRvc7Ng/i3ni97HlEsykn2JUqUKFGiRIkS/YOe1XAz2Y57uaLYzQk3k6tod9rDtIch73sY8sUehnj+A1sgcfHd5CYtAAAAAElFTkSuQmCC"/>
+                  </svg>
               </div>
-              <div class="info__block-3 serv-img-bg">
-                <img src="./images/Icon-Services.png" alt="" class="block-items-img">
-                <p class="block-title white-color">OUR SERVICES</p>
-                <p class="block-description white-color">“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”
-                    <b> - Borat - </b></p>
-              </div>
+              <div class="ba-column-3"></div>
           </div>
-        </div>
-        
-        
-
-
-
-
-      </section>
-      <section id="team" class="works-section">
-        
-          <img src="./images/Icon-Works.png" alt="" class="work-icon">
-          <p class="work-title">RECENT WORKS</p>
-          <div class="slider__wrapper">
-              <div id="slider" class="slider">
-                <div class="slider__item">
-                  <img src="./images/work1.png" alt="">
-                </div>
-                <div class="slider__item">
-                  <img src="./images/work1.png" alt="">
-                </div>
-                <div class="slider__item">
-                  <img src="./images/work1.png" alt="">
-                </div>
-                <div class="slider__item">
-                  <img src="./images/work1.png" alt="">
-                </div>
-                
-              </div>
-            </div>
-            <button class="works-btn">View Gallery</button>
-            
-          
-      </section>
-      <section class="our-team__section">
-          <i class="fa fa-street-view"></i>
-          <p class="team-title">MEET OUR TEAM</p>
-          <div class="slider--team-main">
-              <div id="slider--team" class="slider--team">
-                <div class="slider__item-team">
-                  <div class="slider-block">
-                      <img class="slider-block-img" src="./images/person1.png" alt="">
-                      <p class="slider-block__name">Miguel Obrien</p>
-                      <p class="slider-block__descr">CEO & Founder</p>
-                      <div class="social__slider-block">
-                          <ul class="ba-socials__list">
-                              <li class="ba-socials__item">
-                                  <a target="_blank" href="http://behance.com" class="ba-socials__link"></a>
-                                  <i class="ba-socials__icon fa fa-behance"></i>
-                              </li>
-                              <li class="ba-socials__item">
-                                  <a target="_blank" href="http://linkedin.com" class="ba-socials__link"></a>
-                                  <i class="ba-socials__icon fa fa-linkedin"></i>
-                              </li>
-                              <li class="ba-socials__item">
-                                  <a target="_blank" href="http://google-plus.com" class="ba-socials__link"></a>
-                                  <i class="ba-socials__icon fa fa-google-plus"></i>
-                              </li>
-                              <li class="ba-socials__item">
-                                  <a target="_blank" href="http://facebook.com" class="ba-socials__link"></a>
-                                  <i class="ba-socials__icon fa fa-facebook"></i>
-                              </li>
-                              <li class="ba-socials__item">
-                                  <a target="_blank" href="http://twitter.com" class="ba-socials__link"></a>
-                                  <i class="ba-socials__icon fa fa-twitter"></i>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-                  
-                </div>
-                <div class="slider__item-team">
-                    <div class="slider-block">
-                        <img class="slider-block-img" src="./images/person2.png" alt="">
-                        <p class="slider-block__name">Jackie Carroll</p>
-                        <p class="slider-block__descr">Art Director</p>
-                        <div class="social__slider-block">
-                            <ul class="ba-socials__list">
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://behance.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-behance"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://linkedin.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-linkedin"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://google-plus.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-google-plus"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://facebook.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-facebook"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://twitter.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-twitter"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="slider__item-team">
-                    <div class="slider-block">
-                        <img class="slider-block-img" src="./images/person3.png" alt="">
-                        <p class="slider-block__name">Ida Morrison</p>
-                        <p class="slider-block__descr">Designer</p>
-                        <div class="social__slider-block">
-                            <ul class="ba-socials__list">
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://behance.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-behance"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://linkedin.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-linkedin"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://google-plus.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-google-plus"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://facebook.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-facebook"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://twitter.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-twitter"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider__item-team">
-                    <div class="slider-block">
-                        <img class="slider-block-img" src="./images/person2.png" alt="">
-                        <p class="slider-block__name">Jackie Carroll</p>
-                        <p class="slider-block__descr">Art Director</p>
-                        <div class="social__slider-block">
-                            <ul class="ba-socials__list">
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://behance.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-behance"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://linkedin.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-linkedin"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://google-plus.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-google-plus"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://facebook.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-facebook"></i>
-                                </li>
-                                <li class="ba-socials__item">
-                                    <a target="_blank" href="http://twitter.com" class="ba-socials__link"></a>
-                                    <i class="ba-socials__icon fa fa-twitter"></i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-              </div>
-            </div>
-            
-            
-      </section>
-      <section id="contacts" class="section-contact">
-        
-  
-        <section class="ba-contact">
-            
-            <div class="main-info__contact">
-            <i class="fa fa-map-marker contact-icon"></i>
-                <p class="contact-title">GET IN TOUCH</p>
-                <div class="form-bkg">
-            <div class="form__wrapper">
-                
-                <form id="form" class="form">
-                  <div class="form-first-row">
-                  <div class="form__group-first">
-                    <input class="first-row"type="text" name="name" placeholder=" Your name">
-                    <p class="form__error">Validation error</p>
-                  </div>
-                  <div class="form__group-first">
-                    <input class="first-row" type="text" name="email" placeholder=" Your email">
-                    <p class="form__error">Validation error</p>
-                  </div>
-                </div>
-                  <div class="form__group-second">
-                    <textarea class="second-row" type="text" name="message" placeholder="Your message"></textarea>
-                    <p class="form__error">Validation error</p>
-                  </div>
-                  <button class="form__btn">Send message</button>
-                </form>
-              </div>
-            </div>
-            <div class="modal-cont">
-                <div class="modal-cont__icon"><i class="fa fa-home"></i></div>
-                <div class="modal-cont__descr">
-                  <p class="ca2">Ikan Piranha Atas 220C 
-                    Malang - East Java
-                    Indonesia </p>
-                  </div>
-              </div>
-              <div class="second-modal">
-                  <div class="second-modal__icon"><i class="fa fa-mobile"></i></div>
-                  <div class="second-modal__descr">
-                      <p> 8 800 555 456 </p>
-                  </div>
-                </div>
-            </div> 
-            
-            <div id="map" class="ba-map"></div>
-           
-        </section>
-      </section>
-    </main>
-    <button id="button__page-up" class="button__page-up">
-        <i class="fa fa-angle-up"></i>
-    </button>
-    <footer>
-      <div class="footer-main">
-        <p class="footer-text">&copy;2014 tulusdriyo. All Rights Reserved.</p>
-        <div class="ba-socials">
-            <ul class="ba-socials__list">
-                <li class="ba-socials__item">
-                    <a target="_blank" href="http://behance.com" class="ba-socials__link"></a>
-                    <i class="ba-socials__icon fa fa-behance"></i>
-                </li>
-                <li class="ba-socials__item">
-                    <a target="_blank" href="http://linkedin.com" class="ba-socials__link"></a>
-                    <i class="ba-socials__icon fa fa-linkedin"></i>
-                </li>
-                <li class="ba-socials__item">
-                    <a target="_blank" href="http://google-plus.com" class="ba-socials__link"></a>
-                    <i class="ba-socials__icon fa fa-google-plus"></i>
-                </li>
-                <li class="ba-socials__item">
-                    <a target="_blank" href="http://facebook.com" class="ba-socials__link"></a>
-                    <i class="ba-socials__icon fa fa-facebook"></i>
-                </li>
-                <li class="ba-socials__item">
-                    <a target="_blank" href="http://twitter.com" class="ba-socials__link"></a>
-                    <i class="ba-socials__icon fa fa-twitter"></i>
-                </li>
-            </ul>
-        </div>
+          <div class="ba-grid">
+            <div class="ba-column-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="61" viewBox="0 0 50 61">
+                  <image id="seo.svg" width="50" height="61" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA9CAMAAADYt8pWAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACwVBMVEUAAABmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2AAAACKzUgAAAAA6XRSTlMAlacZpfwrBi1utr69wpqGVAtZBDuU6/79x2cMovozQcz75LCQU0JFPnOY0u6AnvbxGBqvPQgDAQIS4FHRVxzbEEvdB2LfHypS6lVk6A+uFosh56oFbPK8y+Kdge34MCBhun7FKIz3JUYjUMkTyjU3uI7po+zIFEjWR9iRe6EVYMA2l3cm5bJM3tq0SdAv088xt17h5oetsRfw9Kh1CXSrWDSfHtw/rG3v2fmJOA4sOlx91AopjRFaZpyzTjlD15YudnEdX7WgcETOMmpp9ZlWeTyTXYqpktUkIhu/hX9ow0p6cs2CiISPfIqIcFEAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAEvUlEQVRIx42Wi19TZRjHz4ADKiSXIRvohBElk6sQ20AFYgKOcV2A3JHAgQKSWAhEXgATJYi7FyAxILkIFhcJSbNQkywlS8suppnV77/o7GzDCWc7/D7b87x73vd7zvu873PeM4JYtjgmpssfTMuMhDlzj8WKlZxVllYvrba2sV1E2HGZAPs1DiQPtHh80tFpra5jnQAO6xkAZxchD64vu73y6gZ30UYPHvieXhrIW+jjC6tNiwE/fwF8zF4LEIsllKRibqAoCHzXzWKqbwu2Bofw3EJfJF4P44FjypXohcSybeEQelE5RUQGENvlZJRUn1BEI8R9SX7SGG8BGRtHSKgrSeOF8gS9vm1KvBEhJZYqMSmZt0OTBDcFXgvrQdikIs1UQjCJu0HJS9esd1RGZpYunO0C702EAUl3Zgg1SYhz8KbuNib83DyJIYTg7hKo8ulWgTxztya2XYk9hgmqIgqRVkTfphg7E+lQDqzXEsZUoBTupRteZA6dwGa5b4lRghC/hX0x6kZJqZCe2X7emlDjCFFQ+jY9VPwObChXloIDEhZEXI4KupGGdPoKleYEm3bhXXpmisxYylbx3jvIihzyOeyn9kfkYZStRg2XFak9Gk7XV60yiLLv4xgrQZTV8fPUPuA4n7InUM+OSD5AA91oxHIR4kNk6SMVy0A80KT1lGlGCzsR3NpG72V2qxppR5WMFSmJ1iJH2yibRHb4sSJJ5MlTal9x2pGy9q1n1rMinejqVvuP+Gcpm5iLHjaiuxHn6Dr8GCK1S0dnHAui8NnSq10wekZNfSpnFsQRSRZq3+/ZR6PcDnxyyihxXjUQSTeqeZxQumE+OOQkNUIEN0JkoU2pQPNoSYb5AxcME4n+PCtNJgpVY682OBKLsFGDyLAAF+lJyFzwqVgXTWhEZaQh4gy2agZ+Ro5lP4/njSGIsTrHO1WooneRmBjEIbFeV2QxHCYvLSGOuQBT2jcglVKwLv75JJWU3zTIxq4Xj8D+y3KEzWjOR6J9CF/o1lWUgSuUuzRzFaqQL210W3Ttq0I5MJyvnctUKZx00/p6APH0gSOevR4GJIeX35jeeDNlUEkC6y6MaEfZ1WlHUfomA335uh2IuDU5B62SO6bMi3RTjKqDiS6Rs54AeaN3YfojwRPfttz+7nzF6O6Dz88qLyU6F156gPX10xi8op81VyYL0P8t2/897kQs/KzfE5e43gVKThFhSHeLgXn9x0NdZr03gcH0GEbgh44MeMzYLomX1ZdDMHbv2uK47Y+WbRhqn2Cs8wRFEJB6+KeZhSriNij8y30xxNk7QjArMd/mPrW0nnVzudNuDyZPFv7sqgLCa5oCCcOSxI32VI8JAOojpGjXHNHFX8YJFkkDH46emwPHLhyKptpfu9nG6/QbbklywX626ckSK6hvw7LH27ofuIr7v7viD+fZ5YzPfrTKo81TU5Wk/PifD2akxoHHlyszgegdd5501fxlbfaUWjh54bCRf7qPT5QCVrftzWeLxgMCZCNxD7PuxlN3HNtnywxkr07F4MrIxbvgV9+MzKc9TERLihADVvfS/7Z+pqf2f7yedboCbf8ylHkzjIthxftFT+bnq5j0n7rjkf5p9T+gqOQM2me3bQAAAABJRU5ErkJggg=="/>
+              </svg>
+          </div>
+          <div class="ba-column-3">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="61" viewBox="0 0 36 61">
+              <image id="mobile.svg" width="36" height="61" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAA9CAMAAADyBzv5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABj1BMVEUAAABmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2AAAAAG0lSiAAAAg3RSTlMALpO/wMK4chds7/7tYW78t1U9Qjpf0PBYfdKKBwEJls22HzjVfJVwXMG6ub6uPoKEcxI8S0hNMW1/1rGw25o7OaYCA4NleY2SjMqvY3FrYHQohqEjbyqy+faiHoGP+ICdhfuHdeLp8VcIpPU2FQ7jPwUy2p7H4IiJnOy8Io54e3c0EF/9qKMAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAABaElEQVRIx+2VWzdCQRhAP6WipEIUHYSIUJJLSOkcJIkSuUYuIbnf75fvjzvHymqWavLoof02e+0153zzMAMAUCISl4pzI5HKykCgXK7A/CgqlHxTqUK1pqo6NzXaWqzTgb4eGwxMfhqbUArNCmML0GhtU4ECTQw1YtoREDvSK3NnlyVDd09v2lvJyPZrrr5ckb3fMZBhcMhARsNAxylEI6NGGmMuISoMH427HTQ8E0Ik87I0vBw5XT6sxagYFaNi9J+jyQLRlBBJpn00Zvx/vn1nA3MEQa15PkgKpUWIFlhDBiYUXuQiXsKwYSFaIv9yObqCq2vrpNrIOgK9yr/pigWyoiBpfLgF2+gkVRxhB3fJl3MP98WJg0PCHCURxMeJFKFOkvzI3ClhNPIzOFej3024i5TjkvyY+QqvgQ3d4G3UF79Lw3H3nO1nYXuQPOLTM9+GRLTTjr1Evne0e3Svprdc6N81H58AX1pPEAAjDiYOAAAAAElFTkSuQmCC"/>
+          </svg>
       </div>
-    </footer>
+      <div class="ba-column-3"></div>
+  </div>
+</div>
+</section>
+<!-- end of about section -->
 
-    
-    <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/slick.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
-    <script src="./js/main.js"></script>
-    
-    <script src="./js/map.js"></script>
-    <script src="./js/form.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4Y4ZoXlxwAApfI1jzfLJiqWWL5WgyCx0&callback=initMap">
-    </script>
-</body>
-</html>
+<!-- works section -->
+<section class="ba-works">
+    <div class="ba-container">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="60" viewBox="0 0 40 60">
+          <image id="recent-works.svg" width="40" height="60" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAMAAAAjZwjSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEUAAAD///////////////////////////////////////////////////////////////8AAADx3eDuAAAAEHRSTlMAz+/fYCC/rzBAjxCAUHCfc/NimwAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAG9SURBVEjHjZZbFoMgDER5SbWgZv+rLSLgBIKn+Wu5ThgSokql0PQWWrUwr6B9QEdmUZOw5OCXp8+Ecyio1Eq0/SOo1Jc/OBNUKhiK/wjO/DghkehnFJT9OHHnX+mwnQBGCRQcLob2MbXg8EN+fFpwuBGtQhoa0lj6SgceyYbuDxMkMFjuJzmRDiLFToR+RCfVDyzJTgQ/6CQcnsgfoh90spaLpsMog06CJuNCcAbItjF0UvOkRn6yF4A50VXcwXUuKTXWhKhkDERdOQ5Wk2cZwezHw2auf/Yxda5PksWiNDO8xied12bgriS3OmnulnXNkpmTSa5lYJmVCfobx/4I0aYBFrHpatJrAyyY4bxxX3ewvIFp38WF7yQ7MLYxsLV6SGCAnvH8YnDwgLmy8avFQTaoeB0YyAdVmh0z0LJe4PoIuu7CswQI2n6g4QQAcBsmSARJAP0wIZ86IdiX4pb0I9gXN0s+DdzAtW+XHE8DN/AUBLHbKriIgvB8BWVBECjgMn3lVo8FPKfTtZ7aDeLJjpLxAeN8XNfKZvBNsPZKBuPkm+COu4EvMExfKFXS3aB7FbzWX1/VEO3rS3cLP5Y4HaMn44moAAAAAElFTkSuQmCC"/>
+      </svg>
+      <h2>RECENT WORKS</h2>
+      <div class="ba-slider--works">
+        <div class="ba-slide">
+            <img src="dist/images/recent-works.png" alt="Recent Works" class="ba-works__image">
+        </div>
+        <div class="ba-slide">
+            <img src="dist/images/recent-works.png" alt="Recent Works" class="ba-works__image">
+        </div>
+    </div>
+</div>
+</section>
+<!-- end of works section -->
 
+<!-- team section -->
+<section class="ba-team">
+    <div class="ba-container">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+          <image id="team.svg" width="60" height="60" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEUAAABmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2BmX2AAAACGonDBAAAAEHRSTlMAQI+/7yAwn1DPEK/fcIBggjEw0gAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAJUSURBVEjHxVZZtqUgDLxMMpPsf7UNiAIO75J3TnfnS5QyA5UKn8+bMS5QCs4+dFMCmwlFxW4SpTZKGY0oNzLWNofKUtEWrTuenUVBwRqUrq+URErVPPJxyVETwAGnLBkGAhjx5/XfA8s57A0lAewxjsuEngAGDMNROYlAAOdyD4ejScUuh4O6+XaZ3cTOAsQAmd0KAtKCLmbC0ZLhFx3tYu1oAY6O/R/m8dHWeIIvtghef/sPwG4RHJ7YyNAugcUzeE1BNab7yzRL4qvFpyO9yMOrbZNon/VanFjh3oOwWK8Sd7i4dmG5p124TgiKEBURmrEUIcoiJM7tzBKFyEg8SpSh0lCwu2buT11HCdbBJJhiwK7g/Oqr/w141Ux5BcuqpBzebicKfN2SL1/eXMHgRfvoH7QYqsfg4xHePWfHoq+jwE8n51L5rY1HUJu6gtX5KdriP53uy2gJqbWNKVk/5Sx4O25VXIW24HlzC0TpmlngVzCv8UrdPEDexhuWtyBSBRr3lLMz9QdNZQqJeO2CI/80UvpJ7Zk40YX/LAvMKVnT9eEcsZMMQG/OclNBdN3Z1w6AfjFy+XEAD9k/m+LYVbTMAdt10fnKgBepywzEUSVSlvKceCcs25ktUmSDdjAW087OXs+CgzqPB01WUeCLiTjEFPcgSrBi0qgNkhe2o6zwae6nEmFLIBbyEaSmNJE8o1W6cm8JbyqD9VhVlSopRDI/jBVl0t646bZp28mfa60TsFF1HGOQdFODwF/URDUVeq03hy/zTrGUiz39RORyR3bH/QEL3ydrqBB81AAAAABJRU5ErkJggg=="/>
+      </svg>
+      <h2 class="ba-team__title">Meet our team</h2>
+      <div class="ba-slider--team">
+        <div class="ba-grid">
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/miguel.png" alt="Miguel" class="ba-team__image">
+            </div>
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/jackie.png" alt="Jackie" class="ba-team__image">
+            </div>
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/ida.png" alt="Ida" class="ba-team__image">
+            </div>
+        </div>
+        <div class="ba-grid">
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/miguel.png" alt="Miguel" class="ba-team__image">
+            </div>
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/jackie.png" alt="Jackie" class="ba-team__image">
+            </div>
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/ida.png" alt="Ida" class="ba-team__image">
+            </div>
+        </div>
+        <div class="ba-grid">
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/miguel.png" alt="Miguel" class="ba-team__image">
+            </div>
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/jackie.png" alt="Jackie" class="ba-team__image">
+            </div>
+            <div class="ba-column-4 ba-slide">
+                <img src="dist/images/ida.png" alt="Ida" class="ba-team__image">
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- end of team section -->
 
+<!-- contact section -->
+<section class="ba-contact">
+    <div id="map" class="ba-map"></div>
+    <form class="ba-form" action="#" method="POST">
+        <input class="ba-form__name" type="name" name="name" id="name" placeholder="Your Name *">
+        <input class="ba-form__email" type="email" name="email" id="email" placeholder="Your Email *">
+        <input class="ba-form__message" type="message" name="message" id="message" placeholder="Your Message *">
+        <button class="ba-form__button" type="submit"><span>Send message</span></button>
+    </form>
+</section>
+<!-- end of contact section -->
+
+<!-- footer -->
+<footer>
+    <div class="footer-section"></div>
+    <p class="footer-text">&copy;2014 tulusdriyo. All Rights Reserved.</p>
+    <div class="ba-socials">
+        <ul class="ba-socials__list">
+            <li class="ba-socials__item">
+                <a target="_blank" href="http://behance.com" class="ba-socials__link"></a>
+                <i class="ba-socials__icon fa fa-behance"></i>
+            </li>
+            <li class="ba-socials__item">
+                <a target="_blank" href="http://linkedin.com" class="ba-socials__link"></a>
+                <i class="ba-socials__icon fa fa-linkedin"></i>
+            </li>
+            <li class="ba-socials__item">
+                <a target="_blank" href="http://google-plus.com" class="ba-socials__link"></a>
+                <i class="ba-socials__icon fa fa-google-plus"></i>
+            </li>
+            <li class="ba-socials__item">
+                <a target="_blank" href="http://facebook.com" class="ba-socials__link"></a>
+                <i class="ba-socials__icon fa fa-facebook"></i>
+            </li>
+            <li class="ba-socials__item">
+                <a target="_blank" href="http://twitter.com" class="ba-socials__link"></a>
+                <i class="ba-socials__icon fa fa-twitter"></i>
+            </li>
+        </ul>
+    </div>
+</footer>
+<!-- end of footer -->
+
+</div>
+<!-- end of wrapper -->
+
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBt9gLBsNIlFhnV71CZhLFOR0Q4464aIEA"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="js/main.js"></script>   
+</body> 
+</html> 
