@@ -1,16 +1,19 @@
+/* REACT */
 import React, { Component } from 'react';
 
-/*moduls */
+/* MODULES */
 
+/* CUSTOM MODULES */
 import TodoList from './TodoList';
-/*стили */
 
+/* STYLES */
 
+/* IMAGES */
 
 export default class App extends Component {
   render() {
     return (
-      <TodoList/>
+      <TodoList />
     );
   }
 }

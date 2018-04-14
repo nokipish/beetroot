@@ -2,7 +2,11 @@
 import React from 'react';
 
 /* STYLES */
-import './styles.js';
+import {
+  Label,
+  InputCheckbox,
+  InputIcon
+} from './styles';
 
 // export default (props) => (
 //   <label>
@@ -31,15 +35,15 @@ import './styles.js';
 // );
 
 const Checkbox = ({ value, onChange }) => (
-  <label>
-    <inputCheckbocks
+  <Label>
+    <InputCheckbox
       type="checkbox"
       name="checked"
       value={value}
       onChange={onChange}
     />
-    <inputIcon />
-  </label>
+    <InputIcon />
+  </Label>
 );
 
 export default Checkbox;

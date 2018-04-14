@@ -4,8 +4,21 @@ import React from 'react';
 /* STYLES */
 import './styles.css';
 
-const Title = (props) => (
-  <h1>{props.title}</h1>
+const TextInput = ({ name, placeholder, value, onChange, errortext }) => (
+  <div>
+    <input
+      type="text"
+      name={name}
+      placeholder={placeholder}
+      value={value}
+      onChange={onChange}
+    />
+    {
+      errortext
+        ? <p>{errortext}</p>
+        : null
+    }
+  </div>
 );
 
-export default Title;
+export default TextInput;

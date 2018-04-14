@@ -10,12 +10,13 @@ header {
 .ba-container {
   min-height: 100vh;
   font-family: 'Ubuntu', sans-serif;
-  max-width: 1170px;
+  width: 100%;
   width: 100%;
   text-align: center;
   color: #fff;
   margin-top: -200px;
-  padding-top: 30%; }
+  padding-top: 30%; 
+text-align: center;}
 
 .main-backgraund {
   background: url("../images/backgraund.png") center no-repeat; }
@@ -200,7 +201,7 @@ button:focus {
   left: 0;
   width: 100%;
   height: 60px;
-  background-color: #9f9acf;
+  background-color:rgba(0,0,255,0.3);
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   z-index: 100;
@@ -750,6 +751,7 @@ button:focus {
   color: #665f60;
   font-family: 'PT Sans', sans-serif;
   font-size: 20px;
+  line-height: 30px;
   font-weight: 400;
   max-width: 630px; }
 

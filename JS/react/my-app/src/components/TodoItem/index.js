@@ -16,7 +16,6 @@ const TodoItem = ({ checked, onChange, text, deleteTodo }) => {
   const todoStyle = classNames({
     'todo-item': true,
     'todo-item__checked': checked,
-    
   });
 
   return (

@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+/* REACT */
+import React from 'react';
 
-import './styles.js';
+/* STYLES */
+import {
+  TitleText
+} from './styles';
 
-export default class Title extends Component {
-  render() {
-    return (
-      <h1>{this.props.title} </h1>
-    );
-  }
-}
+const Title = (props) => (
+  <TitleText>{props.title}</TitleText>
+);
+
+export default Title;

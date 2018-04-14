@@ -1,18 +1,7 @@
-const Link = ({ className, children }) => (
-  <a className={className}>
-    {children}
-  </a>
-)
+import styled from 'styled-components';
 
-const Title = styled(Link)`
-  color: palevioletred;
+export const TitleText = styled.h1`
+  font-size: 20px;
+  color: red;
   font-weight: bold;
 `;
-
-render(
-  <div>
-    <Link>Unstyled, boring Link</Link>
-    <br />
-    <StyledLink>Styled, exciting Link</StyledLink>
-  </div>
-);

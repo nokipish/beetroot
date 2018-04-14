@@ -107,6 +107,7 @@ export default class TodoList extends Component {
           <SimpleButton
             label="Add todo"
             onClick={this.addTodo}
+            btnSubmit={true}
           />
         </form>
         <Title title="Todo List" />
@@ -138,7 +139,6 @@ export default class TodoList extends Component {
           label="Delete all todos"
           onClick={this.deleteAllTodos}
           disabled={todoList.length < 1}
-          btnSubmit={true}
         />
       </div>
     )
