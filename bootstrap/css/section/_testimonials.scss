@@ -1,0 +1,124 @@
+.testimonials {
+  width: 100%;
+  min-height: 650px;
+  background: $white2;
+
+  &__title {
+      font: 400 20px 'Open Sans Condensed';
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      padding-top: 80px;
+  }
+
+  &__subtitle {
+      font: 400 14px 'Open Sans';
+      line-height: 25px;
+      letter-spacing: 1px;
+      color: $gray;
+      margin: 0 auto;
+      text-align: center;
+      width: 40%;
+      padding-top: 40px;
+      padding-bottom: 58px;
+  }
+
+  &__slide {
+      position: relative;
+      border: 1px solid red;
+      width: 100%;
+      min-height: 320px;
+      background: $white;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+  }
+
+  &__slide-wrapper {
+      border: 1px solid red;
+      width: 100%;
+      min-height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 30px;
+  }
+
+  &__slide-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+  }
+
+  &__slide-img img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+  }
+
+  &__slide-info {
+      width: 65%;
+      margin-left: 70px;
+  }
+
+  &__slide-about {
+      width: 100%;
+      max-width: 754px;
+      font: 400 16px 'Open Sans';
+      color: $gray;
+      line-height: 25px;
+      padding-bottom: 30px;
+      text-align: left;
+  }
+
+  &__slide-name {
+      text-transform: uppercase;
+      color: $green;
+      font: 700 16px 'Open Sans';
+  }
+
+  &__slide-title {
+      text-transform: uppercase;
+      font: 400 14px 'Open Sans';
+      color: $black;
+  }
+
+  &__slide-circle {
+      width: 60px;
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  &__slide-btn {
+      width: 13px;
+      height: 13px;
+      background: $white;
+      border: 1px solid $green;
+      border-radius: 50%;
+      cursor: pointer;
+      &:hover {
+          background: $green;
+      }
+  }
+
+
+}
+
+.slick-dots {
+  width: 60px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

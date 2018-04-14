@@ -1,0 +1,41 @@
+.middle {
+  background: url('../img/bckg.png') center;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+&__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}   
+
+&__ask {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: $white;
+  margin-bottom: 30px;
+}
+
+&__ask-btn {
+  width: 140px;
+  height: 36px;
+  font: 400 16px 'Open Sans';
+  color: $white;
+  background-color: transparent;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+      border: 1px solid;
+      box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+      outline-color: rgba(255, 255, 255, 0);
+      outline-offset: 15px;
+      text-shadow: 1px 1px 2px #427388; 
+      transition:  ease-out 0.5s;
+  }
+}
+}

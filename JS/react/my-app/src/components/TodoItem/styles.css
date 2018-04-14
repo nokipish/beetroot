@@ -1,0 +1,9 @@
+.todo-item {
+  font-size: 14px;
+  color: #333;
+}
+
+.todo-item__checked {
+  text-decoration: line-through;
+  opacity: 0.5;
+}

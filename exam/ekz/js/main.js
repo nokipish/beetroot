@@ -52,4 +52,45 @@ $(document).ready(function() {
     iso.arrange({ filter: filterValue });
   };
 
+
+
+  
+  // add active class to clicked nav item
+  $(".header__nav a").click(function (event) {
+    event.preventDefault();
+    $(".header__nav a").removeClass('active');
+    $(this).addClass('active');
+  });
+
+
+  // Slow scroll from nav item to current section
+  $(".header__nav a, .section-home__btn-next").click(function (event) {
+      event.preventDefault();
+      let id = $(this).attr("href");
+      let top = $(id).offset().top;
+      let headerHeight = $('.header').height();
+      let isHeaderSticky = $('.header').hasClass('header--sticky');
+      let scrollTop = isHeaderSticky ? top - headerHeight : top - headerHeight - 60;
+      $("body, html").animate({ scrollTop }, 700 );
+    }
+  );
+
+
+  // sticky header
+  if ($('.header').length) {
+    let renderHeader = function () {
+      const HEADER = $('.header');
+      let headerHeight = HEADER.height();
+      let scrollTop = $(window).scrollTop();
+      if (scrollTop > headerHeight) {
+        HEADER.addClass("header--sticky");
+      } else {
+        HEADER.removeClass("header--sticky");
+      }
+    }
+    renderHeader();
+    $(window).scroll(function () {
+      renderHeader();
+    })
+  }
 }());

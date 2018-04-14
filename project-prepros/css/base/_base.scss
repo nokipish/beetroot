@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1;
+}
+
+.hidden {
+  overflow: hidden;
+  padding-right: 20px;
+}
+
+button, a {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:focus {
+  outline: none;
+}
