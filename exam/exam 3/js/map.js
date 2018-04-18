@@ -17,6 +17,10 @@ function initMap() {
    map,
    icon: mapMarker,
  });
+
+ var infowindow = new google.maps.InfoWindow({
+  content: ""
+});
  
 
  infowindow.open(map, marker);
